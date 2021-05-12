@@ -1,7 +1,7 @@
 import { DOMSelectors } from "./DOM";
 import { genres } from "./genre";
 
-const key = "YOURKEYHERE";
+//const key = "YOURKEYHERE";
 
 
 
@@ -10,7 +10,7 @@ const query = async function () {
         const response = await fetch(''
     );
     const data = await response.json();
-    data.results.forEach((books) => {
+    data.results.forEach((book) => {
         DOMSelectors.grid.insertAdjacentHTML(
             "beforeend", 
             );
