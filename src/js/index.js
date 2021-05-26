@@ -14,7 +14,7 @@ const query = async function () {
         "beforeend",
         `<div class="show-card">
       <div class="show-card-front">
-        <img src="http://covers.openlibrary.org/b/isbn/9781476746586-L.jpg" alt="" class="cover" />
+        <img src="https://image.tmdb.org/t/p/w500/${show.poster_path}" alt="" class="poster" />
       </div>
       <div class="show-card-back">
         <h3 class="show-card-header">${show.original_name}</h3>
