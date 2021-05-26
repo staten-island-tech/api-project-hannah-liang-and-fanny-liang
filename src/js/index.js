@@ -23,8 +23,8 @@ const query = async function () {
         <p class="user-score">${show.vote_average}</p>
       </div>
         <div class="Overview-box">
-          <p class="Overview">Publication Date</p>
-          <p class="Overview">May 6 2014</p>
+          <p class="Overview">Overview</p>
+          <p class="Overview">${show.overview}</p>
         </div>
         <div class="show-genres">
           <li class="show-genre">Adventure</li>
