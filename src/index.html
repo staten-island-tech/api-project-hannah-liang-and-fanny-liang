@@ -10,23 +10,30 @@
 </head>
 
 <body>
-  <div class="page-banner page-banner-black page-banner-center">
-      <input role="button" type="checkbox" class="hamburger-component__checkbox" id="toggle-hamburger">
-      <div class="hamburger-dropdown-component navigation-dropdown-component">
-        <ul class="dropdown-menu hamburger-dropdown-menu">
-          <li><a href="/account/login">Log in</a></li>
-          <li><a href="/account/create">Sign up</a></li>
-
-          <li><a href="/books/add">Add a Book</a></li>
-          <li><a href="/sponsorship">Sponsor a Book</a></li>
-          <li><a href="/recentchanges">Recent Community Edits</a></li>
-          <li><a href="/developers">Developer Center</a></li>
-          <li><a href="/help">Help &amp; Support</a></li>
-        </ul>
+  <h1 class="header">Book Database</h1>
+  <h2 class="top-rated">Top Rated Books</h2>
+  <section class="book-grid">
+    <div class="book-card">
+      <div class="book-card-front">
+      </div>
+      <div class="book-card-back">
+        <h3 class="book-card-header">The Dark Knight</h3>
+        <div class="score-box">
+          <p class="user-score">Community Score</p>
+          <p class="user-score">8.4</p>
+        </div>
+        <div class="release-box">
+          <p class="release-date">Released</p>
+          <p class="release-date">2020-06-12</p>
+        </div>
+        <div class="book-genres">
+          <li class="book-genre">Sci-Fi</li>
+          <li class="book-genre">Fantasy</li>
+          <li class="book-genre">Horror</li>
+        </div>
       </div>
     </div>
-  
-
+  </section>
     <script src="js/index.js"></script>
 </body>
 
