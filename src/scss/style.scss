@@ -25,7 +25,7 @@ body {
   text-align: center;
   font-size: 3.8rem;
 }
-.book-grid {
+.show-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -35,14 +35,14 @@ body {
   padding: 3rem auto;
   align-items: center;
 }
-.book-card {
+.show-card {
   height: 65vh;
   width: 20vw;
   margin: 0 auto;
   position: relative;
   margin: 2rem auto;
 }
-.book-card-front {
+.show-card-front {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -60,7 +60,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.book-card-back {
+.show-card-back {
   transition: all 0.3s;
   position: absolute;
   top: 0;
@@ -76,18 +76,18 @@ body {
   width: 100%;
   height: 100%;
 }
-.book-card-header {
+.show-card-header {
   font-size: 2.4rem;
   text-transform: uppercase;
   margin: 1rem auto;
 
   text-align: center;
 }
-.release-box {
+.overview-box {
   text-align: center;
 }
 
-.book-genres {
+.show-genres {
   font-size: 1.6rem;
   padding: 1rem 2rem;
   display: flex;
@@ -96,20 +96,20 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
-.book-genre {
+.show-genre {
   list-style: none;
 }
 .user-score {
   font-size: 2rem;
 }
-.release-date {
+.overview {
   font-size: 2rem;
 }
 
-.book-card:hover .book-card-front {
+.show-card:hover .show-card-front {
   z-index: 1;
 }
-.book-card:hover .book-card-back {
+.show-card:hover .show-card-back {
   z-index: 3;
   display: flex;
 }

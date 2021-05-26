@@ -1,5 +1,5 @@
 const DOMSelectors = {
-  grid: document.querySelector(".book-grid"),
+  grid: document.querySelector(".show-grid"),
 };
 
 export { DOMSelectors };
