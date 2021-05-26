@@ -10,6 +10,14 @@ const query = async function () {
     );
     const data = await response.json();
     data.results.forEach((show) => {
+      let genreArr = [];
+      const addGenre = function () {
+        genres.forEach((element) => {
+          if (show.genre_ids.includes(element.id)) {
+            genreArr.push(element.name);
+          }
+        });
+      };
       DOMSelectors.grid.insertAdjacentHTML(
         "beforeend",
         `<div class="show-card">
