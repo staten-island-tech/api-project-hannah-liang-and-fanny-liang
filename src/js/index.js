@@ -15,9 +15,12 @@ const query = async function () {
         genres.forEach((element) => {
           if (show.genre_ids.includes(element.id)) {
             genreArr.push(element.name);
+            return genreArr;
           }
         });
       };
+      addGenre();
+      console.log(genreArr);
       DOMSelectors.grid.insertAdjacentHTML(
         "beforeend",
         `<div class="show-card">
