@@ -16,12 +16,12 @@ const genres = [
     name: "Historical Fiction",
   },
   {
-    id: 27,
-    name: "Horror",
-  },
-  {
     id: 9648,
     name: "Mystery",
+  },
+  {
+    id: 27,
+    name: "Mythology",
   },
   {
     id: 10749,
